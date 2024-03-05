@@ -6,11 +6,6 @@ class Threatcl < Formula
   license "MIT"
   head "https://github.com/threatcl/threatcl.git", branch: "main"
 
-  bottle do
-    root_url "https://github.com/threatcl/homebrew-repo/releases/download/threatcl-0.2.0"
-    rebuild 1
-    sha256 cellar: :any_skip_relocation, monterey: "3973a8edd57a8a7b0c442b7185b8cb330e540ebebe6aeb1260a43b3fc440759e"
-  end
 
   depends_on "go"
 
