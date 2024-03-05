@@ -6,7 +6,6 @@ class Threatcl < Formula
   license "MIT"
   head "https://github.com/threatcl/threatcl.git", branch: "main"
 
-
   depends_on "go"
 
   def install
