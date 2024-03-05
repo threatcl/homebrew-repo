@@ -1,5 +1,5 @@
 class Threatcl < Formula
-  desc "Documenting your Threat Models with HCL."
+  desc "Documenting your Threat Models with HCL"
   homepage "https://github.com/threatcl/threatcl"
   url "https://github.com/threatcl/threatcl/archive/refs/tags/v0.2.0.tar.gz"
   sha256 "16f19b6b4d744bbf994b7a6c5fc9c286274315383261d7119e88c3866afd8256"
