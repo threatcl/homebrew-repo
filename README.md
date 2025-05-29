@@ -13,7 +13,7 @@ Or `brew tap threatcl/repo` and then `brew install <formula>`.
 ## Christian - note to self on how to update hcltm
 
 1. Create a new branch
-2. Update the URL and SHA in the hcltm.rb file
+2. Update the URL and SHA in the threatcl.rb file
 3. Commit the changes
 4. Create a PR, you don't need to merge this
 5. Brew test-bot should run tests
