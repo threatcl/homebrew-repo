@@ -7,8 +7,8 @@ class Threatcl < Formula
   head "https://github.com/threatcl/threatcl.git", branch: "main"
 
   bottle do
-    root_url "https://github.com/threatcl/homebrew-repo/releases/download/threatcl-0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_sequoia: "6f9c565e11777805983c00a8a9ddd33387efdb44ea91dc1f1a7434d3edc35b75"
+    root_url "https://github.com/threatcl/homebrew-repo/releases/download/threatcl-0.3.1"
+    sha256 cellar: :any_skip_relocation, arm64_sequoia: "83b23b63d0ca5152d1339445c4e86eb2942c859f0733f52b2166ddf77da952dc"
   end
 
   depends_on "go"
