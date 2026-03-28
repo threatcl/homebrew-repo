@@ -1,5 +1,9 @@
 # Threatcl Repo
 
+> [!INFO]
+> Threatcl is now available in the core Homebrew repo, so this repo is now DEPRECATED
+> Install with `brew install threatcl`
+
 ## How do I install these formulae?
 
 `brew install threatcl/repo/<formula>`
