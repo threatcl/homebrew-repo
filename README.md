@@ -1,27 +1,35 @@
-# Threatcl Repo
+# Threatcl Homebrew Tap (deprecated)
 
-> [!INFO]
-> Threatcl is now available in the core Homebrew repo, so this repo is now DEPRECATED
-> Install with `brew install threatcl`
+> [!IMPORTANT]
+> **This tap is deprecated.** `threatcl` lives in
+> [homebrew-core](https://formulae.brew.sh/formula/threatcl) now — install it
+> with plain:
+>
+> ```
+> brew install threatcl
+> ```
 
-## How do I install these formulae?
+## Already installed from this tap?
 
-`brew install threatcl/repo/<formula>`
+The formula has been migrated to homebrew-core (via this tap's
+`tap_migrations.json`), so a normal
 
-Or `brew tap threatcl/repo` and then `brew install <formula>`.
+```
+brew update && brew upgrade
+```
 
-## Documentation
+moves your installation across automatically. After that, remove the tap:
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```
+brew untap threatcl/repo
+```
 
-## Christian - note to self on how to update hcltm
+## Why
 
-1. Create a new branch
-2. Update the URL and SHA in the threatcl.rb file
-3. Commit the changes
-4. Create a PR, you don't need to merge this
-5. Brew test-bot should run tests
-6. If they succeed, add the "pr-pull" label to the PR
-7. The bot should run more automation, which will update everything, close the PR, remove the branch etc
+The homebrew-core formula is bumped automatically by Homebrew's CI within
+hours of each threatcl release, ships bottles for all current macOS and Linux
+platforms, and those bottles carry build-provenance attestations. This
+manually-updated tap lagged behind releases and offered a single bottle
+platform — homebrew-core is strictly better on every axis.
 
-
+This repository will be archived once migration has settled.
